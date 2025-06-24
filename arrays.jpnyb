@@ -1,0 +1,17 @@
+import numpy as np
+## NumPy Creating Arrays
+## The array object in NumPy is called ndarray.
+arr = np.array([1, 2, 3, 4, 5])
+print(arr)
+print(type(arr))
+
+##Use a tuple to create a NumPy array:
+arrTuple  = np.array((1, 2, 3, 4, 5))
+print(arrTuple)
+
+##1-D Array
+arr_one_D = np.array([1, 2, 3, 4, 5])
+##1-D Array
+
+arr_two_D = np.array([[1, 2, 3], [4, 5, 6]])
+print(arr_two_D)
