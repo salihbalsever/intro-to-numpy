@@ -1,0 +1,31 @@
+import numpy as np
+
+#Make a copy, change the original array, and display both arrays:
+
+arr = np.array([1, 2, 3, 4, 5])
+arr_copy = arr.copy()
+arr[0] = 42 # Change the original array
+print("Original array:", arr)
+print("Copied array:", arr_copy)
+
+# Make a view, change the original array, and display both arrays:
+arr_view = arr.view()
+arr[1] = 99  # Change the original array
+print("Original array after view change:", arr)
+print("View of the array:", arr_view)
+# Make a view, change the view, and display both arrays:
+arr_view[2] = 77  # Change the view
+print("Original array after view change:", arr)
+print("View of the array after view change:", arr_view)
+
+#Check if Array Owns its Data
+arr = np.array([1, 2, 3, 4, 5])
+
+x = arr.copy()
+y = arr.view()
+
+print(x.base)
+print(y.base)
+# The base attribute returns None for the copy, and the original array for the view
+print("Does x own its data?", x.base is None)  # True, x owns its data
+print("Does y own its data?", y.base is arr)  # True, y is a view of arr
