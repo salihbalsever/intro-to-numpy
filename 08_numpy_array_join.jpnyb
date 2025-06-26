@@ -1,0 +1,28 @@
+import numpy as np
+#In NumPy, joining means combining multiple arrays into one. This is commonly done using functions like np.concatenate(), np.stack(),
+#and np.hstack() / np.vstack().
+#Joins two or more arrays along an existing axis.
+#Example using np.concatenate():
+arr1 = np.array([1, 2, 3])
+arr2 = np.array([4, 5, 6])
+
+joined = np.concatenate((arr1, arr2))
+print(joined)
+
+#Stacks arrays along a new axis (adds one more dimension).
+# Example using np.stack():
+
+arr3 = np.array([[1, 2], [3, 4]])
+arr4 = np.array([[5, 6], [7, 8]])
+stacked = np.stack((arr3, arr4))
+print(stacked)
+
+# Horizontally stacks arrays (along columns).
+# Vertically stacks arrays (along rows).
+# Example using np.hstack() and np.vstack():
+arr5 = np.array([1, 2, 3])
+arr6 = np.array([4, 5, 6])
+hstacked = np.hstack((arr5, arr6))
+vstacked = np.vstack((arr5, arr6))
+print("Horizontal Stack:\n", hstacked)
+print("Vertical Stack:\n", vstacked)

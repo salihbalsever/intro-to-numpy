@@ -41,3 +41,4 @@ for x in np.nditer(arr, flags=['buffered'], op_dtypes=['S']):
 
 for index, value in np.ndenumerate(arr):
     print(f"Index: {index}, Value: {value}")
+    

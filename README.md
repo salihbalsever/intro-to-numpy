@@ -13,11 +13,14 @@ NumPy (Numerical Python) is the foundational package for scientific computing in
 - Array Indexing and Slicing
 - Array Shape and Reshape
 - Iterating with `nditer()` and `ndenumerate()`
-- Mathematical Operations
-- Boolean Masking and Filtering
+- Joining Arrays (concatenate, stack, hstack, vstack)
+- Splitting Arrays (split, array_split)
+- Searching Arrays (where, searchsorted)
+- Sorting Arrays (sort, argsort)
+- Filtering Arrays (Boolean masking)
 - Data Type Conversion
 - Broadcasting
-- Random Numbers
+- Generating Random Numbers
 
 ## 🧠 Who is this for?
 
@@ -35,6 +38,15 @@ This repository is ideal for:
 ├── 05_numpy_array_shape.jpnyb
 ├── 06_numpy_array_reshape.jpnyb
 ├── 07_numpy_array_iterating.jpnyb
+├── 08_numpy_array_join.jpnyb
+├── 09_numpy_array_split.jpnyb
+├── 10_numpy_array_search.jpnyb
+├── 11_numpy_array_sort.jpnyb
+├── 12_numpy_array_filter.jpnyb
+
+
+
+
 
 ## 🚀 Getting Started
 

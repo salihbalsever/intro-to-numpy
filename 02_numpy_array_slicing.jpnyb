@@ -1,0 +1,12 @@
+import numpy as np
+#Slicing arrays
+#Slicing in python means taking elements from one given index to another given index.
+arrSlicing = np.array([1, 2, 3, 4, 5, 6, 7])
+
+print(arrSlicing[1:5])
+print(arrSlicing[4:])
+print(arrSlicing[1:5:2])
+#Slicing 2-D arrays
+arrSlicing2D = np.array([[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]])
+
+print(arrSlicing2D[1, 1:4])
