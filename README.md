@@ -28,12 +28,13 @@ This repository is ideal for:
 
 ## 📁 Folder Structure
 📂 numpy-tutorials/
-├── 01_array_creation.py
-├── 02_indexing_slicing.py
-├── 03_nditer_examples.py
-├── 04_ndenumerate_examples.py
-├── …
-
+├── 01_numpy_array_creation.jpnyb
+├── 02_numpy_array_slicing.jpnyb
+├── 03_numpy_array_data_types.jpnyb
+├── 04_numpy_copy_vews.jpnyb
+├── 05_numpy_array_shape.jpnyb
+├── 06_numpy_array_reshape.jpnyb
+├── 07_numpy_array_iterating.jpnyb
 
 ## 🚀 Getting Started
 
