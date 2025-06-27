@@ -53,6 +53,12 @@ This repository is ideal for:
 ├── 20_uniform_distribution.ipynb
 ├── 21_logistic_distribution.ipynb
 ├── 22_multinomial_distribution.ipynb
+├── 23_exponential_distribution.ipynb
+├── 24_chi_square_distribution.ipynb
+├── 25_rayleigh_distribution.ipynb
+├── 26_pareto_distribution.ipynb
+├── 27_zipf_distribution.ipynb
+
 
 
 
