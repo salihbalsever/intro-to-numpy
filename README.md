@@ -49,6 +49,11 @@ This repository is ideal for:
 ├── 16_seaborn_module_intro.ipynb
 ├── 17_normal_distribution.ipynb
 ├── 18_binomial_distribution.ipynb
+├── 19_poisson_distribution.ipynb
+├── 20_uniform_distribution.ipynb
+├── 21_logistic_distribution.ipynb
+├── 22_multinomial_distribution.ipynb
+
 
 
 
