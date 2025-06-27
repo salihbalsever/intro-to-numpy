@@ -31,18 +31,25 @@ This repository is ideal for:
 
 ## 📁 Folder Structure
 📂 numpy-tutorials/
-├── 01_numpy_array_creation.jpnyb
-├── 02_numpy_array_slicing.jpnyb
-├── 03_numpy_array_data_types.jpnyb
-├── 04_numpy_copy_vews.jpnyb
-├── 05_numpy_array_shape.jpnyb
-├── 06_numpy_array_reshape.jpnyb
-├── 07_numpy_array_iterating.jpnyb
-├── 08_numpy_array_join.jpnyb
-├── 09_numpy_array_split.jpnyb
-├── 10_numpy_array_search.jpnyb
-├── 11_numpy_array_sort.jpnyb
-├── 12_numpy_array_filter.jpnyb
+├── 01_numpy_array_creation.ipynb
+├── 02_numpy_array_slicing.ipynb
+├── 03_numpy_array_data_types.ipynb
+├── 04_numpy_copy_vews.ipynb
+├── 05_numpy_array_shape.ipynb
+├── 06_numpy_array_reshape.ipynb
+├── 07_numpy_array_iterating.ipynb
+├── 08_numpy_array_join.ipynb
+├── 09_numpy_array_split.ipynb
+├── 10_numpy_array_search.ipynb
+├── 11_numpy_array_sort.ipynb
+├── 12_numpy_array_filter.ipynb
+├── 13_numpy_random.ipynb
+├── 14_numpy_random_data_distribution.ipynb
+├── 15_numpy_random_permutations.ipynb
+├── 16_seaborn_module_intro.ipynb
+├── 17_normal_distribution.ipynb
+├── 18_binomial_distribution.ipynb
+
 
 
 
@@ -53,7 +60,7 @@ This repository is ideal for:
 Make sure you have Python and NumPy installed:
 
 # Using pip
-pip install numpy
+pip install numpy matplotlib seaborn
 
 # Or using conda
-conda install numpy
+conda install numpy matplotlib seaborn
