@@ -58,6 +58,13 @@ This repository is ideal for:
 ├── 25_rayleigh_distribution.ipynb
 ├── 26_pareto_distribution.ipynb
 ├── 27_zipf_distribution.ipynb
+├── 28_numpy_ufuncs.ipynb
+├── 29_numpy_create_ufunc.ipynb
+├── 30_numpy_simple_arithmetic.ipynb
+├── 31_numpy_rounding_decimals.ipynb
+├── 32_numpy_logs.ipynb
+├── 33_numpy_summations.ipynb
+├── 34_numpy_products.ipynb
 
 
 
