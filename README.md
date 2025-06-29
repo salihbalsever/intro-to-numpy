@@ -65,6 +65,12 @@ This repository is ideal for:
 ├── 32_numpy_logs.ipynb
 ├── 33_numpy_summations.ipynb
 ├── 34_numpy_products.ipynb
+├── 35_numpy_differences.ipynb
+├── 36_numpy_finding_lcm.ipynb
+├── 37_numpy_finding_gcd.ipynb
+├── 38_numpy_trigonometric_functions.ipynb
+├── 39_numpy_set_operations.ipynb
+
 
 
 
